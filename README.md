@@ -1,6 +1,6 @@
 # US-Unemployment-Rate-Forecasting
 
-## For R Version 3.6 (Base R)
+### For R Version 3.6 (Base R)
 
 ## Dataset:
 Our dataset comes from kaggle.com, an online community of data scientists and machine learning practitioners. The data contains the seasonally unadjusted monthly unemployment rate from January 1948 to November 2021. The data also includes total unemployment, men's and women's unemployment rate, and information on subsets of the population like ages ranging from 16 to 55. We will use seasonally unadjusted unemployment rate data from the St Louis Federal Reserve database, FRED, as the control for our analysis.
