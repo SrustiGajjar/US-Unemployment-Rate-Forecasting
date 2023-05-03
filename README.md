@@ -8,7 +8,7 @@ Our dataset comes from kaggle.com, an online community of data scientists and ma
 ## Description:
 The unemployment rate is highly influenced by the business cycle and the overall health of the economy. As we have recently noticed during the pandemic, the unemployment rate skyrocketed as businesses were forced to close. We are interested in using different forecasting methods to forecast the unemployment rate. The first forecasting method we are using is time series regression. we will be regressing (yt = β0 + β1x1,t + β2x2,t + ⋯ + βkxk,t + εt) the total unemployment rate as a function of the unemployment rate of the subsets groups in our data which are: men, women, and age groups 16 to 17, 17 to 18, 19 to 24, 25 to 34, 35 to 44, 45 to 55, and 55 and older. The second forecasting method we will examine is the AutoRegressive Integrated Moving Average (ARIMA (p,d,q)) which is a model that makes the dependent variate (y) a function of the last p lags of y, its last q lagged errors and d degrees of first difference.
 
-## Results:
+## Methods Used:
 ### 1. Stepwise Regression:
 
 The equation we received after the regression with coefficients will be:
